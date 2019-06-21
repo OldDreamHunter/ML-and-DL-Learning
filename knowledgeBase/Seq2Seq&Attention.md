@@ -1,4 +1,4 @@
-# Seq2Seq
+# Seq2Seq & Attention
 
 ![img](http://plm-images.oss-cn-hongkong.aliyuncs.com/image/nlp/am/01-encoder-decoder-n)
 
@@ -10,7 +10,9 @@
 
 y1,y2..,yn都是通过同一个语义编码得到的，因此称为注意力不集中的模型，其实wide and deep就是一个Encoder-Decoder的结构，但是存在的问题就是注意力不集中。
 
-**基本架构**
+**Attention基本架构**
+
+
 
 ![img](http://plm-images.oss-cn-hongkong.aliyuncs.com/image/nlp/am/02-encoder-decoder-am-n)
 
